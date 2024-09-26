@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul {
+    background-color:bisque;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.footer {
+    background-color:bisque;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
