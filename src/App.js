@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
 import About from './components/pages/About';
+import Projects from './components/pages/Projects';
 import Footer from './components/Footer';
 import './styles/App.css';
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Header />
       <main>
         <About />
+        <Projects />
       </main>
       <Footer />
     </div>
