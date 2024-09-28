@@ -1,11 +1,11 @@
 import React from 'react';
 
 function Footer() {
-    return (
-        <header className="footer">
-            <h1>Thanks for visiting!</h1>
-        </header>
-    );
+  return (
+    <footer>
+      <p>&copy; 2024 Tyler Hudson // DevByCLoud. All rights reserved.</p>
+    </footer>
+  );
 }
 
 export default Footer;

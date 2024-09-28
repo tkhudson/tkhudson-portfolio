@@ -1,8 +1,6 @@
 import React from "react";
-import Menu from "../menu";
-import Footer from "../footer";
 
-function AboutMe () {
+function About () {
     return (
         <div>
             <h1>About Me</h1>
@@ -12,4 +10,4 @@ function AboutMe () {
     );
 }
 
-export default AboutMe;
+export default About;

@@ -1,18 +1,17 @@
 import React from 'react';
-import Footer from './components/footer';
-import Menu from './components/menu';
-import styles from './styles/App.css';
-import AboutMe from './components/pages/AboutMe';
+import Header from './components/Header';
+import About from './components/pages/About';
+import Footer from './components/Footer';
+import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <Menu className={styles.menu}/>
+      <Header />
       <main>
-      <AboutMe />
-      <p>Welcome to DevByCloud!</p>
+        <About />
       </main>
-      <Footer className="content"/>
+      <Footer />
     </div>
   );
 }
