@@ -79,3 +79,41 @@ footer {
   background-color: #4a4a4a;
   color: white;
 }
+
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.blog-post {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.blog-post h3 {
+  margin-top: 0;
+}
+
+.post-date {
+  font-style: italic;
+  color: #666;
+}
+
+.post-excerpt {
+  margin-bottom: 10px;
+}
+
+.blog-post a {
+  display: inline-block;
+  background-color: #4a4a4a;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.blog-post a:hover {
+  background-color: #333;
+}
